@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PI 3 etapa 7 e 8 </title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./imagens/logo_fsv.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link disabled" aria-disabled="true">Home</a>
+            <a class="nav-link" href="./tela_funcionario.html">Funcionários</a>
+            <a class="nav-link" href="./tela_cliente.html">Clientes</a>
+            <a class="nav-link" href="./tela_solicitacao.html">Solicitações</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container tela_inicial">
+      <div class="row">
+        <div class="col-sm-12 titulo">
+          <h1 class="estilo_texto">Tipo de cadastro</h1>
+        </div>
+        <div class="col-sm-12 radio_funcionario">
+          <label for="radio_pag1"><h3 class="estilo_texto">Funcionário</h3></label>
+          <input type="radio" name="tipo_cadastro" value="funcionario" class="cadastro">
+        </div>
+        <div class="col-sm-12 radio_cliente">
+          <label for="radio_pag1"><h3 class="estilo_texto">Cliente</h3></label>
+          <input type="radio" name="tipo_cadastro" value="cliente" class="cadastro">
+        </div>
+      </div>
+      <div class="col-sm-12 botoes">
+        <button class="ver_lista">Lista</button>
+    </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/lista.js"></script>
+  </body>
+</html>

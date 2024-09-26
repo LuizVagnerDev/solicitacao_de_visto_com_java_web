@@ -1,0 +1,254 @@
+.tela_inicial{
+    height:100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.498), rgba(255, 255, 255, 0.469)), url('../imagens/img_visto.jpeg');
+    background-size: cover;
+    font-family: "Adamina", serif;
+    
+}
+.tela_cliente{
+    height:100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.498), rgba(255, 255, 255, 0.469)), url('../imagens/img_passaporte.jpeg');
+    background-size: cover;
+    font-family: "Adamina", serif;
+}
+
+.tela_funcionario{
+    height:100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.498), rgba(255, 255, 255, 0.469)), url('../imagens/img_casv.jpeg');
+    background-size: cover;
+    font-family: "Adamina", serif;
+}
+.tela_solicitacao{
+    height:100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.498), rgba(255, 255, 255, 0.469)), url('../imagens/img_casv.jpeg');
+    background-size: cover;
+    font-family: "Adamina", serif;
+}
+.titulo{
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.estilo_texto_pag1{
+    margin-left: 100px;
+    color: #0E236F;
+    font-weight: bold;
+}
+.radio_funcionario input{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 25px;
+    height: 20px;
+    margin-left: 13px;
+}
+
+.radio_cliente input{
+    margin-bottom: 30px;
+    margin-left: 80px;
+    width: 25px;
+    height: 20px;
+}
+.titulo_pag2, .titulo_pag3, .titulo_pag4{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.estilo_texto{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    color: #0E236F;
+    font-weight: bold;
+    display: flex;
+}
+.input_pag2, .input_pag3, .input_pag4{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.534);
+}
+#nome_func, .funcao{
+    margin-top: 5px;
+}
+.funcao {
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    background-color:rgba(255, 255, 255, 0.534);
+}
+.botoes{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.voltar, .enviar, .ver_lista {
+    border-radius: 20px;
+    width: 190px;
+    height: 60px;
+    padding: 10px 15px;
+}
+.ajuste_h5 h5{
+    margin-top: 6px;
+    color: #0E236F;
+    font-weight: bold;
+}
+.erro{ 
+    background-color: rgb(129, 25, 25);
+}
+.listas{
+    text-align: center;
+    background-color: rgb(85, 99, 200);
+}
+.listas ul{
+    list-style:none;
+}
+@media (max-width: 1399px){
+    h1{
+        font-size: 30px;
+    }
+    
+    h3{
+      font-size: 22px;
+    }
+    h5{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .input_pag2, .input_pag3, .input_pag4{
+       display: flex;
+       width: 250px;
+       height: 30px;
+      justify-content: center;
+        
+    }    
+    .botoes{
+        margin-top: 120px;
+        
+        }
+        .voltar, .enviar, .ver_lista {
+            border-radius: 18px;
+            width: 160px;
+            height: 50px;
+            padding: 9px 12px;
+        }
+        .voltar{
+            margin-left: 10px;
+        }
+        .enviar {
+            margin-right: 10px;
+        }    
+}
+
+@media (max-width: 1199px){
+    h1{
+        font-size: 25px;
+    }
+    
+    h3{
+      font-size: 18px;
+    }
+    h5{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .input_pag2, .input_pag3, .input_pag4{
+       display: flex;
+       width: 200px;
+       height: 28px;
+      justify-content: center;
+        
+    }
+    .botoes{
+        margin-top: 100px;
+        
+        }
+        .voltar, .enviar, .ver_lista {
+            border-radius: 16px;
+            width: 140px;
+            height: 40px;
+            padding: 8px 11px;
+        }
+        .voltar{
+            margin-left: 15px;
+        }
+        .enviar {
+            margin-right: 15px;
+        }    
+}
+
+@media (max-width: 991px){
+    h1{
+        font-size: 22px;
+    }
+    
+    h3{
+      font-size: 15px;
+    }
+    h5{
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .input_pag2, .input_pag3, .input_pag4{
+       display: flex;
+       width: 170px;
+       height: 26px;
+      justify-content: center;
+        
+    }    
+    .botoes{
+        margin-top: 80px;
+        
+        }
+        .voltar, .enviar, .ver_lista {
+            border-radius: 14px;
+            width: 120px;
+            height: 40px;
+            padding: 6px 9px;
+        }
+        .voltar{
+            margin-left: 20px;
+        }
+        .enviar {
+            margin-right: 20px;
+        }
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 18px;
+    }
+    
+    h3{
+      font-size: 12px;
+    }
+    h5{
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    .input_pag2, .input_pag3, .input_pag4{
+       display: flex;
+       width: 150px;
+       height: 24px;
+      justify-content: center;
+        
+    }   
+    .botoes{
+    margin-top: 50px;
+    
+    }
+    .voltar, .enviar, .ver_lista {
+        border-radius: 12px;
+        width: 100px;
+        height: 35px;
+        padding: 4px 7px;
+    }
+    .voltar{
+        margin-left: 40px;
+    }
+    .enviar {
+        margin-right: 40px;
+    }
+    
+}

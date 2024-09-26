@@ -1,0 +1,42 @@
+{
+  "funcionario": [
+    {
+      "nome": "",
+      "cargo": "",
+      "id": ""
+    },
+    {
+      "id": "faf8",
+      "nome": "Kaio Henrique",
+      "cargo": "analista_jr"
+    },
+    {
+      "id": "74f3",
+      "nome": "Fernando Santos",
+      "cargo": "gerente"
+    }
+  ],
+  "cliente": [
+    {
+      "nome": "",
+      "data_nascimento": "",
+      "endereco": "",
+      "email": "",
+      "id": ""
+    },
+    {
+      "id": "68ed",
+      "nome": "Luiz Vagner da Silva",
+      "data_nascimento": "1989-02-19",
+      "endereco": "Rua Porfírio, 98",
+      "email": "l.vagsilva@mmmd.dsad"
+    },
+    {
+      "id": "1024",
+      "nome": "Gabriel Silva",
+      "data_nascimento": "1999-10-10",
+      "endereco": "rua5",
+      "email": "G.silva@123.com"
+    }
+  ]
+}
