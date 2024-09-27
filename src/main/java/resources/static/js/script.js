@@ -54,7 +54,7 @@ envio.forEach(cadastrar =>{
             if(funcionario.checkValidity() && funcao.value !== "vazio"){
 
                 const dados = {
-                    nome : funcionario.value,
+                    nome_fuscnc : funcionario.value,
                     cargo : funcao.value,
                 };
                 fetch('http://localhost:3000/funcionario',{
@@ -92,7 +92,7 @@ envio.forEach(cadastrar =>{
             if(cliente.checkValidity() && data_nasc.checkValidity() && endereco_cliente.checkValidity() && email_cliente.checkValidity()){
 
                 const dados_cliente = {
-                    nome : cliente.value,
+                    nome_cliente : cliente.value,
                     data_nascimento : data_nasc.value,
                     endereco : endereco_cliente.value,
                     email : email_cliente.value
@@ -108,20 +108,15 @@ envio.forEach(cadastrar =>{
                 .then((data) =>{
                     alert("Cliente cadastrado com sucesso!");
                     let resposta = confirm("Deseja realizar outro cadastro de cliente?");
-                if(resposta === false){
-                    let resposta2 = confirm("Deseja ir para a página de solicitações?");
-                    if(resposta2 === true){
-                        window.location.href = "./tela_solicitacao.html";
+                    if(resposta === false){
+                        window.location.href = "./index.html";
                     }
                     else{
-                        window.location.href = "./index.html";
-                        
-                    }              
-                }
-                else{
-                    funcionario.value = "";
-                    funcao.value = 'vazio';
-                }
+                        cliente.value = "";
+                        data_nasc.value = "";
+                        endereco_cliente.value = "";
+                        email_cliente.value  = "";
+                    }
                 })
                 .catch((error)=>{
                     alert('Erro!', error)
@@ -212,3 +207,4 @@ finalizar_solicitacao.addEventListener('click', event =>{
     }
     
 });
+
