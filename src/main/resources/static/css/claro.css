@@ -1,0 +1,14 @@
+body, nav{ 
+  background-color: white; 
+  font-family: Verdana; 
+  color:#000;
+} 
+
+.navbar .nav-link {
+    color: white;
+}
+
+
+.navbar .nav-link:hover {
+    color: #f0ad4e;
+}
